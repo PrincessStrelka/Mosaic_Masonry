@@ -1,0 +1,12 @@
+{
+  "block.mosaic_masonry.common_bond": "Common Bond Bricks",
+  "block.mosaic_masonry.english_bond": "English Bond Bricks",
+  "block.mosaic_masonry.flemish_bond": "Flemish Bond Bricks",
+  "block.mosaic_masonry.header_bond": "Header Bond Bricks",
+  "block.mosaic_masonry.mud_bond": "Mud Bond Bricks",
+  "block.mosaic_masonry.prismarine_bond": "Prismarine Bond Bricks",
+  "block.mosaic_masonry.quartz_bond": "Quartz Bond Bricks",
+  "block.mosaic_masonry.stack_bond": "Stack Bond Bricks",
+  "block.mosaic_masonry.stone_bond": "Stone Bond Bricks",
+  "itemGroup.mosaic_masonry": "Mosaic Masonry"
+}

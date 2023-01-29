@@ -1,0 +1,10 @@
+// 1.19.2	2023-01-29T00:21:51.4187655	LootTables
+db5b741dc7b731a8f6f98c8a48ddcd416c177216 data/mosaic_masonry/loot_tables/blocks/common_bond.json
+c825089be54b305b23b2b76dedd34105ae78c26e data/mosaic_masonry/loot_tables/blocks/english_bond.json
+6fcfd558458e5016962cab9a1525529e63cac06a data/mosaic_masonry/loot_tables/blocks/flemish_bond.json
+1cc1bf15b747aa64c3fdf4c25c555b6a915969d8 data/mosaic_masonry/loot_tables/blocks/header_bond.json
+763136321776b447771a4f1d31c138e24c21aedf data/mosaic_masonry/loot_tables/blocks/mud_bond.json
+0b4afa69c59076b74a723a67a44045df8948f109 data/mosaic_masonry/loot_tables/blocks/prismarine_bond.json
+3a1f71154ed187777f8364e5d6e6af61c38e6b37 data/mosaic_masonry/loot_tables/blocks/quartz_bond.json
+40c75d27c4e09842231ce0b8f575d71a4097a746 data/mosaic_masonry/loot_tables/blocks/stack_bond.json
+e3c69ffb8f51238d67f3a79fe75707ee746c18ce data/mosaic_masonry/loot_tables/blocks/stone_bond.json

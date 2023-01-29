@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mosaic_masonry:block/flemish_bond"
+  }
+}
