@@ -12,24 +12,24 @@ import net.minecraftforge.fml.common.Mod;
 import static caittastic.masonry.MosaicMasonry.MODID;
 
 @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class DataGenerators {
-    @SubscribeEvent
-    public static void gatherData(GatherDataEvent event) {
-        ExistingFileHelper helper = event.getExistingFileHelper();
-        DataGenerator generator = event.getGenerator();
+public class DataGenerators{
+  @SubscribeEvent
+  public static void gatherData(GatherDataEvent event){
+    ExistingFileHelper helper = event.getExistingFileHelper();
+    DataGenerator gen = event.getGenerator();
 
-        /*     client     */
-        boolean isClient = event.includeClient();
-        generator.addProvider(isClient, new ModBlockStatesAndModels(generator, helper));
-        generator.addProvider(isClient, new ModItemModels(generator, helper));
-        generator.addProvider(isClient, new ModEnUsLanguageProvider(generator, "en_us"));
+    /*     client     */
+    boolean isClient = event.includeClient();
+    gen.addProvider(isClient, new ModBlockStatesAndModels(gen, helper));
+    gen.addProvider(isClient, new ModItemModels(gen, helper));
+    gen.addProvider(isClient, new ModEnUsLanguageProvider(gen, "en_us"));
 
-        /*     server     */
-        boolean isServer = event.includeServer();
-        //generator.addProvider(isServer, new ModRecipes(generator));
-        generator.addProvider(isServer, new ModLootTableProvider(generator));
-        generator.addProvider(isServer, new ModBlockTags(generator, helper));
+    /*     server     */
+    boolean isServer = event.includeServer();
+    gen.addProvider(isServer, new ModRecipes(gen));
+    gen.addProvider(isServer, new ModLootTableProvider(gen));
+    gen.addProvider(isServer, new ModBlockTags(gen, helper));
 
 
-    }
+  }
 }
